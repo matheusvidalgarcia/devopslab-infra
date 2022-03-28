@@ -17,5 +17,5 @@ provider "google" {
 provider "google-beta" {
   project = "lab-devops-cloud-matheus"
   region  = "us-west1"
-  zone    = "us-west1-b"
+  zone    = "us-west1-c"
 }
