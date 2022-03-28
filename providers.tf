@@ -1,4 +1,4 @@
-terraform {
+erraform {
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -10,7 +10,6 @@ terraform {
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
 
-  credentials = file("/home/vagrant/gcpkey.json")
 
   project = "lab-devops-cloud-matheus"
   region  = "us-west1"
