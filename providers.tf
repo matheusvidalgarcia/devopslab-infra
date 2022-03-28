@@ -16,8 +16,8 @@ provider "google" {
   zone    = "us-west1-c"
 }
 
-provider "lab-devops-cloud-matheus" {
-  project = "DEFINIR"
+provider "google-beta" {
+  project = "lab-devops-cloud-matheus"
   region  = "us-west1"
   zone    = "us-west1-b"
 }
